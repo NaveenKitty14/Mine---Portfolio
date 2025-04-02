@@ -24,7 +24,7 @@ If you plan to use this repository for your own projects, please ensure to perso
 - Displays my name, roles, and call-to-action buttons.
 - Features a dynamic typing animation and 3D space-themed background.
 
-![Home Section](/assets/1.jpg)
+![Home Section](/assets/1.png)
 
 ### 3. **About**
 - Presents a professional image alongside a detailed bio highlighting my multidisciplinary expertise.
