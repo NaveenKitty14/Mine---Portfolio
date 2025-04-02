@@ -4,7 +4,7 @@ Welcome to **MyMind**, the dynamic portfolio website of **Naveen Prasath**. This
 
 ## 🌐 Live Preview
 
-Explore the live portfolio [here](#).
+Explore the live portfolio [Welcome to Space Nexus](https://mine-portfolio-lime.vercel.app/).
 
 ## ⚠️ Important Notice
 
@@ -24,7 +24,7 @@ If you plan to use this repository for your own projects, please ensure to perso
 - Displays my name, roles, and call-to-action buttons.
 - Features a dynamic typing animation and 3D space-themed background.
 
-![Home Section](/readme-images/home.png)
+![Home Section](/assets/1.jpg)
 
 ### 3. **About**
 - Presents a professional image alongside a detailed bio highlighting my multidisciplinary expertise.
