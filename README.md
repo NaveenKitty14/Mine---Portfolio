@@ -69,7 +69,6 @@ If you plan to use this repository for your own projects, please ensure to perso
 - Section indicators for easy navigation.
 - Audio toggle for optional background music.
 
-![Interactive Elements](/readme-images/interactive.png)
 
 ---
 
