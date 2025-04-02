@@ -18,7 +18,7 @@ If you plan to use this repository for your own projects, please ensure to perso
 - Provides quick navigation to **About**, **Skills**, **Projects**, **Experience**, **Education**, and **Contact** sections.
 - Features a clean and intuitive design.
 
-![Navbar](/readme-images/navbar.png)
+![Navbar]()
 
 ### 2. **Home/Hero Section**
 - Displays my name, roles, and call-to-action buttons.
@@ -134,10 +134,10 @@ Sign up at vercel.com if you don't already have an account.
 
 Feel free to reach out to me for collaboration or questions:
 
-- Email: naveenprasath144gmail.com
-- LinkedIn: Naveen Prasath P
-- GitHub: NaveenKitty14
-- Instagram: @_.kitty._zi
+- Email: [naveenprasath144gmail.com](mailto:naveenprasath144gmail.com)
+- LinkedIn: [Naveen Prasath P](http://www.linkedin.com/in/naveen-prasath144)
+- GitHub: [NaveenKitty14](https://github.com/NaveenKitty14)
+- Instagram: [@_.kitty._zi](https://www.instagram.com/_.kitty._zi/)
 
    
 
