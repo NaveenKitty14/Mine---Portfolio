@@ -30,38 +30,38 @@ If you plan to use this repository for your own projects, please ensure to perso
 - Presents a professional image alongside a detailed bio highlighting my multidisciplinary expertise.
 - Includes 3D elements that respond to cursor movement.
 
-![About Section](/readme-images/about.png)
+![About Section](/assets/2.png)
 
 ### 4. **Skills**
 - Organized into five dynamic categories: **Code & Development**, **AI/ML & Data Science**, **Tools & Technologies**, **Web & Cloud Technologies**, and **Other Skills**.
 - Each category features an icon and detailed list of relevant skills.
 
-![Skills Section](/readme-images/skills.png)
+![Skills Section](/assets/3.png)
 
 ### 5. **Projects**
 - Showcases five featured projects with interactive preview cards.
 - Each card displays a project image, title, technologies used, and a "View Details" button.
 - Clicking on a project opens a detailed modal view with comprehensive information.
 
-![Projects Section](/readme-images/projects.png)
+![Projects Section](/assets/4.png)
 
 ### 6. **Experience**
 - Features a visual timeline displaying professional experiences.
 - Each entry includes the position, organization, duration, and key responsibilities.
 
-![Experience Section](/readme-images/experience.png)
+![Experience Section](/assets/5.png)
 
 ### 7. **Education**
 - Contains cards showing institutions, degrees, years of attendance, and brief descriptions.
 - Presented in a clean, chronological format.
 
-![Education Section](/readme-images/education.png)
+![Education Section](/assets/6.png)
 
 ### 8. **Contact Form**
 - Features a dynamic contact form with visual feedback.
 - Includes alternative contact methods like email, LinkedIn, GitHub, and Instagram.
 
-![Contact Form](/readme-images/contact.png)
+![Contact Form](/assets/7.png)
 
 ### 9. **Interactive Elements**
 - Custom cursor effects that enhance the user experience.
