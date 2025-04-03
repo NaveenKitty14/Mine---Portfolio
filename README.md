@@ -14,56 +14,50 @@ If you plan to use this repository for your own projects, please ensure to perso
 
 ## ✨ Features Overview
 
-### 1. **Navbar**
-- Provides quick navigation to **About**, **Skills**, **Projects**, **Experience**, **Education**, and **Contact** sections.
-- Features a clean and intuitive design.
-
-![Navbar]()
-
-### 2. **Home/Hero Section**
+### 1. **Home/Hero Section**
 - Displays my name, roles, and call-to-action buttons.
 - Features a dynamic typing animation and 3D space-themed background.
 
 ![Home Section](/assets/1.png)
 
-### 3. **About**
+### 2. **About**
 - Presents a professional image alongside a detailed bio highlighting my multidisciplinary expertise.
 - Includes 3D elements that respond to cursor movement.
 
 ![About Section](/assets/2.png)
 
-### 4. **Skills**
+### 3. **Skills**
 - Organized into five dynamic categories: **Code & Development**, **AI/ML & Data Science**, **Tools & Technologies**, **Web & Cloud Technologies**, and **Other Skills**.
 - Each category features an icon and detailed list of relevant skills.
 
 ![Skills Section](/assets/3.png)
 
-### 5. **Projects**
+### 4. **Projects**
 - Showcases five featured projects with interactive preview cards.
 - Each card displays a project image, title, technologies used, and a "View Details" button.
 - Clicking on a project opens a detailed modal view with comprehensive information.
 
 ![Projects Section](/assets/4.png)
 
-### 6. **Experience**
+### 5. **Experience**
 - Features a visual timeline displaying professional experiences.
 - Each entry includes the position, organization, duration, and key responsibilities.
 
 ![Experience Section](/assets/5.png)
 
-### 7. **Education**
+### 6. **Education**
 - Contains cards showing institutions, degrees, years of attendance, and brief descriptions.
 - Presented in a clean, chronological format.
 
 ![Education Section](/assets/6.png)
 
-### 8. **Contact Form**
+### 7. **Contact Form**
 - Features a dynamic contact form with visual feedback.
 - Includes alternative contact methods like email, LinkedIn, GitHub, and Instagram.
 
 ![Contact Form](/assets/7.png)
 
-### 9. **Interactive Elements**
+### 8. **Interactive Elements**
 - Custom cursor effects that enhance the user experience.
 - Loading screen with progress indicator for 3D elements.
 - Section indicators for easy navigation.
