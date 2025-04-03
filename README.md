@@ -1,4 +1,4 @@
-# MyMind - Naveen Prasath Portfolio
+# Mind - Naveen Prasath Portfolio
 
 Welcome to **MyMind**, the dynamic portfolio website of **Naveen Prasath**. This portfolio showcases my work and achievements, built with **HTML5**, **CSS3**, **JavaScript**, and **Three.js** for immersive 3D experiences.
 
