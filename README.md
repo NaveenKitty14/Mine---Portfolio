@@ -4,7 +4,7 @@ Welcome to **MyMind**, the dynamic portfolio website of **Naveen Prasath**. This
 
 ## 🌐 Live Preview
 
-Explore the live portfolio [Welcome to Space Nexus](https://mine-portfolio-lime.vercel.app/).
+Explore the live portfolio [Welcome to Space Nexus](https://naveen-kitty-portfoliocom.vercel.app/).
 
 ## ⚠️ Important Notice
 
