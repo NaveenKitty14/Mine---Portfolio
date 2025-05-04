@@ -953,7 +953,7 @@ function openProjectModal(projectId) {
             ],
             challenges: "Ensuring accurate recommendations across diverse user preferences.",
             outcome: "Improved user engagement by 30% through personalized suggestions.",
-            link: "./404 page.html" // Ensure the file name matches the actual file
+            link:"https://github.com/NaveenKitty14/Recommendation-System"
         },
         avatar: {
             title: "Word-pix",
@@ -967,7 +967,7 @@ function openProjectModal(projectId) {
             ],
             challenges: "Achieving realistic animations and quick response times.",
             outcome: "Successfully translates text into sign language with 95% accuracy.",
-            link: "./404 page.html"
+            link: "https://github.com/NaveenKitty14/Word-Pix"
         },
         voice: {
             title: "Image Segmentation and Edge Detection",
@@ -981,7 +981,7 @@ function openProjectModal(projectId) {
             ],
             challenges: "Handling diverse image qualities and backgrounds effectively.",
             outcome: "Achieved a segmentation accuracy of 90% on benchmark datasets.",
-            link: "./404 page.html"
+            link: "https://github.com/NaveenKitty14/Image-Segmentation-Edge-Detection"
         },
         events: {
             title: "Network Intrusion Detection System",
@@ -995,7 +995,7 @@ function openProjectModal(projectId) {
             ],
             challenges: "Minimizing false positives while ensuring high detection rates.",
             outcome: "Successfully identified 95% of intrusion attempts in tests.",
-            link: "./404 page.html"
+            link: ""
         },
         community: {
             title: "Portfolio Website",
@@ -1009,7 +1009,7 @@ function openProjectModal(projectId) {
             ],
             challenges: "Designing a visually appealing layout while maintaining functionality.",
             outcome: "Increased visibility and received positive feedback from users.",
-            link: "./404 page.html"
+            link: "https://naveen-kitty-portfoliocom.vercel.app/"
         },
         voice: {
             title: "UI/UX & Photoshop Project",
@@ -1023,7 +1023,7 @@ function openProjectModal(projectId) {
             ],
             challenges: "Balancing visual appeal with performance optimization while ensuring consistent user experience across multiple devices.",
             outcome: "Delivered a highly rated interface design that increased user engagement by 40% and reduced bounce rate by 25%.",
-            link: "./404 page.html"
+            link: "https://drive.google.com/drive/folders/1ySgIPT0ex1MTd3WQ9Lwg9J215hCA43lb?usp=sharing"
         }
         ,
        
