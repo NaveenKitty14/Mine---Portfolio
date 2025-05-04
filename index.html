@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naveen Prasath Portfolio</title>
+    
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Custom Cursor for Enhanced UI -->
+    <div class="custom-cursor"></div>
+    
+    <!-- Loading Screen - Essential for 3D websites to preload assets -->
+    <div class="loading-screen">
+        <div class="loader-container">
+            <div class="loader-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="progress-text">0%</div>
+            </div>
+            <div class="loader-text">
+                <span>Welcome to My Space Nexus</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main 3D Experience Container -->
+    <div id="experience-container">
+        <!-- Primary 3D Canvas (covers entire viewport) -->
+        <canvas id="main-canvas"></canvas>
+        
+        <!-- Navigation -->
+        <nav class="navigation">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="#" data-section="home">Mine</a>
+                </div>
+                <div class="nav-links">
+                    <a href="#" data-section="about">About</a>
+                    <a href="#" data-section="skills">Skills</a>
+                    <a href="#" data-section="projects">Projects</a>
+                    <a href="#" data-section="experience">Experience</a>
+                    <a href="#" data-section="education">Education</a>
+                    <a href="#" data-section="contact">Contact</a>
+                </div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Menu for Responsive Design -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-container">
+                <a href="#" data-section="about">About</a>
+                <a href="#" data-section="skills">Skills</a>
+                <a href="#" data-section="projects">Projects</a>
+                <a href="#" data-section="experience">Experience</a>
+                <a href="#" data-section="contact">Contact</a>
+            </div>
+        </div>
+
+        <!-- Content Sections - Each positioned in 3D space -->
+        <div class="sections-wrapper">
+            <!-- Home Section -->
+            <section id="home" class="section active" data-section="home">
+                <div class="section-content">
+                    <div class="hero-text">
+                        <h1 class="glitch-text" data-text="Naveen Prasath">Naveen Prasath</h1>
+                        <div class="hero-subtitle">
+                            <div class="typing-container">
+                                <span class="typing-text"></span>
+                                <span class="typing-cursor">|</span>
+                            </div>                            
+                        </div>
+                        <p class="hero-description"> Graphic Designer | Full-Stack Developer |  UI/UX Designer</p>
+                        <div class="hero-cta">
+                            <button class="cta-button primary" data-section="projects">View Projects</button>
+                            <button class="cta-button secondary" data-section="contact">Contact Me</button>
+                        </div>
+                    </div>
+                    <div class="scroll-indicator">
+                        <span>find</span>
+                        <div class="scroll-arrow">
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-3d-elements" data-scene="home"></div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="section" data-section="about">
+                <div class="section-content">
+                    <div class="section-header">
+                        <h2 class="title">About Me</h2>
+                        <div class="section-underline"></div>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <p>I am a multidisciplinary digital professional dedicated to crafting seamless digital experiences. With expertise as a Frontend Developer, Graphic Designer, Full-Stack Developer, and UI/UX Designer, I blend aesthetics and functionality to build engaging, high-performance applications.</p>
+                            <p>As a Frontend Developer, I specialize in user research, wireframing, and interface development using technologies such as React.js, HTML, CSS, and JavaScript. In my role as a Full-Stack Developer, I leverage Node.js and React Native to develop scalable applications that meet user needs effectively.</p>
+                            <p>Additionally, my graphic design skills enable me to create compelling branding and UI assets using tools like Adobe Photoshop and Figma, ensuring effective communication and lasting impressions. I am passionate about collaboration and innovation, always eager to take on new challenges in the tech space. Let's connect and build something amazing together.</p>
+
+                        </div>
+                        <div class="about-visual">
+                            <div class="about-image">
+                                <img src="./assets/image/me.png" alt="Naveen Prasath">
+                                <div class="image-overlay"></div>
+                            </div>
+                            <div class="section-3d-elements" data-scene="about"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Skills Section -->
+            <section id="skills" class="section" data-section="skills">
+                <div class="section-content">
+                    <div class="section-header">
+                        <h2 class="title">Skills</h2>
+                        <div class="section-underline"></div>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skills-category" data-category="programming">
+                            <div class="category-header">
+                                <h3>Code & Development</h3>
+                                <div class="category-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                            </div>
+                            <ul class="skills-list">
+                                <li>Full-Stack Development: React.js, Node.js</li>
+                                <li>Frontend: HTML, CSS, JavaScript, React.js</li>
+                                <li>Backend: Node.js </li>
+                                <li>Database: MongoDB, MySQL</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category" data-category="ai">
+                            <div class="category-header">
+                                <h3>AI/ML & Data Science</h3>
+                                <div class="category-icon">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                            </div>
+                            <ul class="skills-list">
+                                <li>Python, TensorFlow, OpenCV</li>
+                                <li>Data Analysis & Visualization (Pandas, Matplotlib)</li>
+                                <li>Machine Learning Model Development</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category" data-category="tools">
+                            <div class="category-header">
+                                <h3>Tools & Technologies</h3>
+                                <div class="category-icon">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                            </div>
+                            <ul class="skills-list">
+                                <li>Git, GitHub, Docker</li>
+                                <li>PyCharm, VS Code</li>
+                                <li>Three.js (3D Web Development)</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category" data-category="web">
+                            <div class="category-header">
+                                <h3>Web & Cloud Technologies</h3>
+                                <div class="category-icon">
+                                    <i class="fas fa-cloud"></i>
+                                </div>
+                            </div>
+                            <ul class="skills-list">
+                                <li>Performance Optimization</li>
+                                <li>Hosting & Deployment (Hostinger, Vercel)</li>
+                                <li>Cloud Databases (MongoDB Atlas)</li>
+                            </ul>
+                        </div>
+                        <div class="skills-category" data-category="other">
+                            <div class="category-header">
+                                <h3>Other Skills</h3>
+                                <div class="category-icon">
+                                    <i class="fas fa-plus-circle"></i>
+                                </div>
+                            </div>
+                            <ul class="skills-list">
+                                <li>Problem-Solving & Debugging</li>
+                                <li>UI/UX Optimization & Prototyping</li>
+                                <li>Project & Team Management</li>
+                                <li>Community Engagement</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-3d-elements" data-scene="skills"></div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section" data-section="projects">
+                <div class="section-content">
+                    <div class="section-header">
+                        <h2 class="title">Projects</h2>
+                        <div class="section-underline"></div>
+                    </div>
+                    <div class="projects-gallery">
+                        <div class="project-item" data-project="isl">
+                            <div class="project-preview">
+                                <div class="project-image">
+                                    <img src="./assets/image/recommendation system.jpg" alt="Recommendation System">
+                                    <div class="project-3d-element" data-project-model="isl"></div>
+                                </div>
+                                <div class="project-overlay">
+                                    <h3>Recommendation System</h3>
+                                    <div class="project-tags">
+                                        <span>AI/ML</span>
+                                        <span>Accessibility</span>
+                                        <span>Python</span>
+                                    </div>
+                                    <button class="view-project-btn">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Additional project items go here -->
+                        <div class="project-item" data-project="avatar">
+                            <div class="project-preview">
+                                <div class="project-image">
+                                    <img src="./assets/image/Word-pix.png" alt="Word-pix">
+                                    <div class="project-3d-element" data-project-model="avatar"></div>
+                                </div>
+                                <div class="project-overlay">
+                                    <h3>Word-pix</h3>
+                                    <div class="project-tags">
+                                        <span>AI & ML</span>
+                                        <span>backend:Python</span>
+                                        <span>Fontend:Html,css,js</span>
+
+                                    </div>
+                                    <button class="view-project-btn">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-project="voice">
+                            <div class="project-preview">
+                                <div class="project-image">
+                                    <img src="./assets/image/AI-Powered Image Segmentation and Edge Detection.avif" alt="image-segmentation-edge-detection">
+                                    <div class="project-3d-element" data-project-model="voice"></div>
+                                </div>
+                                <div class="project-overlay">
+                                    <h3>Image-Segmentation-Edge-Detection</h3>
+                                    <div class="project-tags">
+                                        <span>AI</span>
+                                        <span>TensorFlow</span>
+                                        <span>Python</span>
+                                    </div>
+                                    <button class="view-project-btn">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-project="events">
+                            <div class="project-preview">
+                                <div class="project-image">
+                                    <img src="./assets/image/network intrusion detection system.jpg" alt="network-intrusion-detection-system">
+                                    <div class="project-3d-element" data-project-model="events"></div>
+                                </div>
+                                <div class="project-overlay">
+                                    <h3>Network Intrusion Detection System</h3>
+                                    <div class="project-tags">
+                                        <span>Security</span>
+                                        <span>Python</span>
+                                        <span>Gui</span>
+                                        <span>deep Learning</span>
+                                    </div>
+                                    <button class="view-project-btn">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-project="community">
+                            <div class="project-preview">
+                                <div class="project-image">
+                                    <img src="./assets/image/portfolio.jpg" alt="Portfolio Website">
+                                    <div class="project-3d-element" data-project-model="community"></div>
+                                </div>
+                                <div class="project-overlay">
+                                    <h3>Portfolio Website</h3>
+                                    <div class="project-tags">
+                                        <span>Web Development</span>
+                                        <span>HTML</span>
+                                        <span>css</span>
+                                        <span>JavaScript</span>
+                                    </div>
+                                    <button class="view-project-btn">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-item" data-project="voice">
+                            <div class="project-preview">
+                                <div class="project-image">
+                                    <img src="./assets/image/icon.png" alt="project-voice">
+                                    <div class="project-3d-element" data-project-model="voice"></div>
+                                </div>
+                                <div class="project-overlay">
+                                    <h3>Internship Project</h3>
+                                    <div class="project-tags">
+                                        <span>Photoshop</span>
+                                        <span>figma</span>
+                                        <span>visual studio</span>
+                                    </div>
+                                    <button class="view-project-btn">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-3d-elements" data-scene="projects"></div>
+            </section>
+            
+
+ <!-- Experience Section -->
+<section id="experience" class="section" data-section="experience">
+    <div class="section-content">
+        <div class="section-header">
+            <h2 class="title">Experience</h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="experience-timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-item" data-year="present">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Internship –Bhogan Mediasoft ( Brand Strategist )</h3>
+                    <div class="timeline-details">
+                        <ul>
+                            <li>Collaborated with the marketing team to develop and implement brand strategies.</li>
+                            <li>Conducted market research to identify trends and opportunities for brand growth.</li>
+                            <li>Assisted in creating engaging content for social media platforms.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item" data-year="2024 - 25">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Professional Service Director – Rotaract Club of Coimbatore Royals</h3>
+                    <div class="timeline-details">
+                        <ul>
+                            <li>Plans and executes impactful service projects to benefit the community.</li>
+                            <li> Partners with NGOs and local bodies to enhance outreach and effectiveness.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item" data-year="2023 - 24">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Photographer Club Co-ordainer - Adept Association</h3>
+                    <div class="timeline-details">
+                        <ul>
+                            <li>Organizes photography outings, workshops, and competitions, ensuring smooth coordination of schedules, venues, and participants.</li>
+                            <li>Encourages participation, provides learning resources, and facilitates mentorship to help members improve their photography skills.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-3d-elements" data-scene="experience"></div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="section" data-section="education">
+    <div class="section-content">
+        <div class="section-header">
+            <h2 class="education-title">Education</h2>
+            <div class="section-underline"></div>
+        </div>
+        <div class="education-items">
+            <div class="education-item">
+                <div class="education-year">2021 - 2025</div>
+                <div class="education-details">
+                    <h4>B.Tech – Kathir College of Engineering</h4>
+                    <p>Pursuing a degree in Computer Science and Engineering with a focus on software development, AI/ML, and web technologies.</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-year">2020 - 2021</div>
+                <div class="education-details">
+                    <h4>Higher Secondary Education – APS Academy Matric Higher Secondary School</h4>
+                    <p>Studied Computer Science and Mathematics, building a strong foundation in programming and problem-solving.</p>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-year">2018 - 2019</div>
+                <div class="education-details">
+                    <h4>Secondary Education – APS Academy Matric Higher Secondary School</h4>
+                    <p>Focused on academic excellence and developed an early interest in technology and innovation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-3d-elements" data-scene="education"></div>
+</section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section" data-section="contact">
+                <div class="section-content">
+                    <div class="section-header">
+                        <h2 class="title">Contact Me</h2>
+                        <div class="section-underline"></div>
+                    </div>
+                    <div class="contact-container">
+                        <div class="contact-info">
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <a href="mailto:naveenprasath144gmail.com">naveenprasath144gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>LinkedIn</h3>
+                                    <a href="http://www.linkedin.com/in/naveen-prasath144" target="_blank" rel="noopener">Naveen Prasath P</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>GitHub</h3>
+                                    <a href="https://github.com/NaveenKitty14" target="_blank" rel="noopener">NaveenKitty</a>
+                                </div>
+                            </div>
+                            <div class="contact-method">
+                                <div class="contact-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Instagram</h3>
+                                    <a href="https://www.instagram.com/_.kitty._zi/" target="_blank" rel="noopener">@NaveenKitty...</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-form-wrapper">
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                    <div class="form-highlight"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <div class="form-highlight"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" required>
+                                    <div class="form-highlight"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                    <div class="form-highlight"></div>
+                                </div>
+                                <button type="submit" class="submit-button">
+                                    <span>Send Message</span>
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-3d-elements" data-scene="contact"></div>
+            </section>
+        </div>
+
+        <!-- Project Details Modal -->
+        <div class="project-modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-container">
+                <div class="modal-close">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="modal-content">
+                    <!-- Will be dynamically populated via JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Navigation Indicators -->
+        <div class="section-indicators">
+            <div class="indicator" data-section="home"></div>
+            <div class="indicator" data-section="about"></div>
+            <div class="indicator" data-section="skills"></div>
+            <div class="indicator" data-section="projects"></div>
+            <div class="indicator" data-section="experience"></div>
+            <div class="indicator" data-section="contact"></div>
+        </div>
+    </div>
+
+    <!-- Audio Toggle for Background Music -->
+    <div class="audio-toggle">
+        <div class="audio-icon">
+            <i class="fas fa-volume-up"></i>
+            <i class="fas fa-volume-mute"></i>
+        </div>
+    </div>
+
+    <!-- Required Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.11.4/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
